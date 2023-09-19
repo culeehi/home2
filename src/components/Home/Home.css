@@ -1,0 +1,11 @@
+.home .videoBg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.home .videoBg video {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=Home.css.map */
