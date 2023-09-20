@@ -1,0 +1,132 @@
+header {
+   display: flex;
+   position: fixed;
+   z-index: 100000;
+   color: white;
+   width: 100%;
+}
+
+.navbar {
+   display: flex;
+}
+
+.shop {
+   margin-left: 7px;
+   position: relative;
+}
+
+.nav-area {
+   display: flex;
+   align-items: center;
+   max-width: 100%;
+   margin: 0 auto;
+   padding: 0 20px;
+   height: 75px;
+}
+
+.logo {
+   text-decoration: none;
+   font-size: 25px;
+   color: inherit;
+   margin-right: 20px;
+}
+
+.logo img {
+   height: 25px;
+}
+
+.menus {
+   display: flex;
+   list-style: none;
+}
+
+.menu-items {
+   position: relative;
+   font-size: 14px;
+}
+
+.menu-items a {
+   display: block;
+   font-size: inherit;
+   color: inherit;
+   text-decoration: none;
+}
+
+.menu-items button {
+   color: inherit;
+   font-size: inherit;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+   width: 100%;
+}
+
+.menu-items a,
+.menu-items button {
+   text-align: left;
+   padding: 0.7rem 1rem;
+}
+
+.menu-items a:hover,
+.menu-items button:hover {
+   background-color: #f2f2f2;
+}
+
+.dropdown {
+   position: absolute;
+   right: 0;
+   left: auto;
+   box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08), 0 4px 6px -2px rgba(71, 63, 79, 0.16);
+   font-size: 0.875rem;
+   z-index: 9999;
+   min-width: 10rem;
+   padding: 0.5rem 0;
+   list-style: none;
+   background-color: #fff;
+   border-radius: 0.5rem;
+   display: none;
+}
+
+.dropdown.show {
+   display: block;
+}
+
+.dropdown .dropdown-submenu {
+   position: absolute;
+   left: 100%;
+   top: -7px;
+}
+
+.icons {
+   font-size: 10px;
+}
+
+.payment {
+   display: flex;
+}
+
+.number {
+   position: absolute;
+   top: -10px;
+   right: -10px;
+
+   border-radius: 50px;
+   background: #ff4a52;
+
+   z-index: 2;
+   width: 14px;
+   height: 15px;
+}
+
+.number .point {
+   position: absolute;
+   top: 4px;
+   right: 4px;
+   border-radius: 50px;
+   background: #ff4a52;
+
+   z-index: 2;
+   width: 7px;
+   height: 8px;
+   border: solid 1px white;
+}
