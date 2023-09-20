@@ -4,6 +4,8 @@ import Dropdown from './Dropdown';
 
 import { BsChevronDown } from 'react-icons/bs';
 
+import { BsChevronRight } from 'react-icons/bs';
+
 const MenuItems = ({ items, depthLevel }) => {
    const [dropdown, setDropdown] = useState(false);
 
@@ -42,13 +44,15 @@ const MenuItems = ({ items, depthLevel }) => {
                   aria-expanded={dropdown ? 'true' : 'false'}
                   onClick={() => setDropdown((prev) => !prev)}
                >
-                  {/* {items.title} {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />} */}
-                  {items.title} {depthLevel > 0 ? <span>&raquo;</span> : <BsChevronDown className="icons" />}
+                  {items.title} {depthLevel > 0 ? <BsChevronRight /> : <BsChevronDown className="icons" />}
                </button>
                <Dropdown depthLevel={depthLevel} submenus={items.submenu} dropdown={dropdown} />
             </>
          ) : (
-            <a href="/#">{items.title}</a>
+            <>
+               <a href="/#">{items.title}</a>
+               <div className="boottom-devide"></div>
+            </>
          )}
       </li>
    );
