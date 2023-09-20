@@ -2,7 +2,7 @@ export const menuItems = [
     
    {
       title: 'Home',
-      subItems: [
+      submenu: [
          { title: 'Home 1 - Background Image' },
          { title: 'Home 2 - Youtube Video' },
          { title: 'Home 3 - Google Inspired' },
@@ -11,64 +11,64 @@ export const menuItems = [
    },
    {
       title: 'Tours',
-      subItems: [
+      submenu: [
          {
             title: 'Tour Classic Fullwidth',
-            subItems: [{ title: '2 Columns' }, { title: '3 Columns' }, { title: '4 Columns' }],
+            submenu: [{ title: '2 Columns' }, { title: '3 Columns' }, { title: '4 Columns' }],
          },
 
          {
             title: 'Tour Classic Sidebar',
-            subItems: [{ title: 'Right Sidebar' }, { title: 'Left Sidebar' }],
+            submenu: [{ title: 'Right Sidebar' }, { title: 'Left Sidebar' }],
          },
 
          {
             title: 'Tour Grid fullwidth',
-            subItems: [{ title: '2 Columns' }, { title: '3 Columns' }, { title: '4 Columns' }],
+            submenu: [{ title: '2 Columns' }, { title: '3 Columns' }, { title: '4 Columns' }],
          },
 
-         { title: 'Tour Grid Sidebar', subItems: [{ title: 'Right Sidebar' }, { title: 'Left Sidebar' }] },
+         { title: 'Tour Grid Sidebar', submenu: [{ title: 'Right Sidebar' }, { title: 'Left Sidebar' }] },
 
-         { title: 'Tour List Sidebar', subItems: [{ title: 'Right Sidebar' }, { title: 'Left Sidebar' }] },
+         { title: 'Tour List Sidebar', submenu: [{ title: 'Right Sidebar' }, { title: 'Left Sidebar' }] },
 
-         { title: 'Tour Header Type', subItems: [{ title: 'Future Image' }, { title: 'Video' }] },
+         { title: 'Tour Header Type', submenu: [{ title: 'Future Image' }, { title: 'Video' }] },
 
          {
             title: 'Tour Categories',
-            subItems: [{ title: 'Rural' }, { title: 'Snow & Ice' }, { title: 'Wildlife' }, { title: 'Mountain' }],
+            submenu: [{ title: 'Rural' }, { title: 'Snow & Ice' }, { title: 'Wildlife' }, { title: 'Mountain' }],
          },
       ],
    },
    {
       title: 'Booking',
-      subItems: [
+      submenu: [
          {
             title: 'Online payment for Booking',
-            subItems: [{ title: 'variable Tour Pricing' }, { title: 'Simple Tour Pricing' }],
+            submenu: [{ title: 'variable Tour Pricing' }, { title: 'Simple Tour Pricing' }],
          },
          {
             title: 'Custom Booking Form',
-            subItems: [{ title: 'Booking From + Sub Tour Date' }, { title: 'Booking From + Custom Date' }],
+            submenu: [{ title: 'Booking From + Sub Tour Date' }, { title: 'Booking From + Custom Date' }],
          },
          {
             title: 'Tour Durations',
-            subItems: [{ title: 'Single Day Tour' }, { title: 'Multiple Days Tour' }],
+            submenu: [{ title: 'Single Day Tour' }, { title: 'Multiple Days Tour' }],
          },
          { title: 'Custom Booking URL for Affiliate Tour' },
          { title: 'Custom Booking using custom HTML & Shortcode' },
          {
             title: 'Header Options',
-            subItems: [{ title: 'Standard Background Header' }, { title: 'Video Background Header' }],
+            submenu: [{ title: 'Standard Background Header' }, { title: 'Video Background Header' }],
          },
          {
             title: 'Layout Options',
-            subItems: [{ title: 'With Sidebar' }, { title: 'Fullwidth' }],
+            submenu: [{ title: 'With Sidebar' }, { title: 'Fullwidth' }],
          },
       ],
    },
    {
       title: 'Destinations',
-      subItems: [
+      submenu: [
          { title: 'Destinations Fullwidth' },
          { title: 'Destinations + Video Header ' },
          { title: 'Destinations Right Sidebar ' },
@@ -79,7 +79,7 @@ export const menuItems = [
    },
    {
       title: 'Pages',
-      subItems: [
+      submenu: [
          { title: 'About Us' },
          { title: 'Contact Us' },
          { title: 'FAQs' },
@@ -92,7 +92,7 @@ export const menuItems = [
    },
    {
       title: 'Blog',
-      subItems: [
+      submenu: [
          { title: 'Blog Right Sidebar' },
          { title: 'Blog Left Sidebar' },
          { title: 'Blog Fullwidth' },
@@ -106,7 +106,7 @@ export const menuItems = [
    },
    {
       title: 'Shortcodes',
-      subItems: [
+      submenu: [
          { title: 'Accordion & Toggles' },
          { title: 'Alert Boxes' },
          { title: 'Animated Content' },
@@ -121,7 +121,7 @@ export const menuItems = [
    },
    {
       title: 'Shop',
-      subItems: [
+      submenu: [
          { title: 'Shop Fullwidth' },
          { title: 'Shop Sidebar' },
          { title: 'Single Product Fullwidth' },
