@@ -27,11 +27,11 @@ const MenuItems = ({ items, depthLevel }) => {
    }, [dropdown]);
 
    const onMouseEnter = () => {
-      window.innerWidth > 960 && setDropdown(true);
+      window.innerWidth > 900 && setDropdown(true);
    };
 
    const onMouseLeave = () => {
-      window.innerWidth > 960 && setDropdown(false);
+      window.innerWidth > 900 && setDropdown(false);
    };
 
    return (
@@ -44,7 +44,17 @@ const MenuItems = ({ items, depthLevel }) => {
                   aria-expanded={dropdown ? 'true' : 'false'}
                   onClick={() => setDropdown((prev) => !prev)}
                >
-                  {items.title} {depthLevel > 0 ? <BsChevronRight /> : <BsChevronDown className="icons" />}
+                  {/* {items.title} {depthLevel > 0 ? <BsChevronRight /> : <BsChevronDown className="icons" />} */}
+                  {depthLevel > 0 ? (
+                     <div className="cap1">
+                        <span>{items.title}</span>
+                        <BsChevronRight className="icons-right" />{' '}
+                     </div>
+                  ) : (
+                     <div className="cap2">
+                        {items.title} <BsChevronDown className="icons" />{' '}
+                     </div>
+                  )}
                </button>
                <Dropdown depthLevel={depthLevel} submenus={items.submenu} dropdown={dropdown} />
             </>

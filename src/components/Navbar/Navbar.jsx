@@ -9,7 +9,6 @@ import { BsList } from 'react-icons/bs';
 const Navbar = () => {
    return (
       <div className="home-narbar">
-         {/* <header> */}
          <div className="nav-area">
             <div className="logo">
                <img src={logo} alt="" />
@@ -27,7 +26,6 @@ const Navbar = () => {
                </div>
             </div>
          </div>
-         {/* </header> */}
       </div>
    );
 };
