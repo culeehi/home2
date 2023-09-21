@@ -1,3 +1,9 @@
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+}
 .home .videoBg {
   position: absolute;
   height: 100%;
@@ -18,7 +24,6 @@
   padding: 0 1.3rem;
   margin: 0 auto;
   color: white;
-  margin-top: 90px;
 }
 .home .show-main .title-show-main {
   text-align: center;
@@ -31,53 +36,67 @@
   font-size: 16px;
   font-weight: 500;
 }
-.home .show-main .input_nav-tour .tour_sreach_wrapper {
+.home .show-main .input_nav-tour .nav-input {
+  width: 90%;
+  margin: 0 auto;
+}
+.home .show-main .input_nav-tour .nav-input .tour_sreach_wrapper {
   display: flex;
   justify-content: center;
   margin-top: 25px;
 }
-.home .show-main .input_nav-tour .tour_sreach_wrapper .one_fourth {
+.home .show-main .input_nav-tour .nav-input .tour_sreach_wrapper .one_fourth {
   display: flex;
-  width: 18%;
-  margin: 0 10px;
+  width: 240px;
 }
-.home .show-main .input_nav-tour .tour_sreach_wrapper .one_fourth input {
+.home .show-main .input_nav-tour .nav-input .tour_sreach_wrapper .one_fourth input {
   width: 100%;
   padding: 10px 15px;
   border-radius: 7px;
   outline: none;
 }
-.home .show-main .input_nav-tour .tour_sreach_wrapper .one_fourth .icon-input {
+.home .show-main .input_nav-tour .nav-input .tour_sreach_wrapper .one_fourth .icon-input {
   position: relative;
   right: 30px;
   bottom: -10px;
   opacity: 0.5;
   color: black;
 }
-.home .show-main .input_nav-tour .tour_sreach_wrapper .one_fourth-search input {
+.home .show-main .input_nav-tour .nav-input .tour_sreach_wrapper .one_fourth-search input {
   background-color: #ff4a52;
   color: white;
   cursor: pointer;
 }
-.home .show-main .input_nav-tour .tour_advance {
+.home .show-main .input_nav-tour .nav-input .tour_advance {
   display: flex;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 15px;
 }
-.home .show-main .input_nav-tour .tour_advance .one_fourth {
+.home .show-main .input_nav-tour .nav-input .tour_advance .one_fourth {
   display: flex;
-  width: 18%;
-  margin: 0 10px;
+  width: 240px;
 }
-.home .show-main .input_nav-tour .tour_advance .one_fourth input {
+.home .show-main .input_nav-tour .nav-input .tour_advance .one_fourth input {
   width: 100%;
   padding: 10px 15px;
   border-radius: 7px;
 }
-.home .show-main .input_nav-tour .tour_advance .one_fourth .icon-input {
+.home .show-main .input_nav-tour .nav-input .tour_advance .one_fourth .icon-input {
   position: relative;
   right: 30px;
   bottom: -10px;
   opacity: 0.5;
   color: black;
+}
+.home .show-main .input_nav-tour .nav-input .tour_advance .tour_advance-toggle {
+  margin-left: 55px;
+  cursor: pointer;
+}
+.home .show-main .input_nav-tour .nav-input .tour_advance .tour_advance-toggle .icon-input {
+  color: white;
+  position: relative;
+  bottom: -4px;
+}
+.home .show-main .input_nav-tour .nav-input .tour_advance .tour_advance-toggle p {
+  margin-left: -25px;
 }/*# sourceMappingURL=Home.css.map */

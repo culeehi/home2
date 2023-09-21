@@ -1,0 +1,49 @@
+.destination {
+  margin-top: 70px;
+}
+.destination .destination-title {
+  text-align: center;
+}
+.destination .destination-title h1 {
+  font-size: 36px;
+  text-transform: none;
+  letter-spacing: 0px;
+}
+.destination .destination-title p {
+  font-size: 15px;
+  color: #8d9199;
+}
+.destination .popularPlaces {
+  margin-top: 40px;
+}
+.destination .popularPlaces .content .images {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.destination .popularPlaces .content .images .imade {
+  flex-basis: 20%;
+  max-width: 25%;
+  padding: 15px;
+}
+.destination .popularPlaces .content .images .imade:hover {
+  transform: translateY(-7px);
+  transition: 0.3s;
+}
+.destination .popularPlaces .content .images .imade img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.destination .popularPlaces .content .images .imade h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  position: relative;
+  bottom: 50px;
+  cursor: pointer;
+  right: -15px;
+}/*# sourceMappingURL=Destinations.css.map */
