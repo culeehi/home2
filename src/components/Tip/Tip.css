@@ -1,0 +1,68 @@
+.tip {
+  width: 90%;
+  margin: 50px auto;
+  padding-bottom: 50px;
+}
+.tip .tip-navs {
+  display: flex;
+  justify-content: center;
+}
+.tip .tip-navs .tip-nav {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+  margin: 0 12px;
+  cursor: pointer;
+}
+.tip .tip-navs .tip-nav:hover {
+  transform: translateY(-7px);
+  transition: 0.3s;
+  box-shadow: -1px -1px 10px 5px rgb(152, 117, 117);
+}
+.tip .tip-navs .tip-nav .tip-img img {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tip .tip-navs .tip-nav .tip-title {
+  padding: 10px 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: -7px;
+  border-bottom: 1px solid #d8d6d6;
+  border-right: 1px solid #d8d6d6;
+  border-left: 1px solid #d8d6d6;
+}
+.tip .tip-navs .tip-nav .tip-title .tip-top {
+  margin-top: 10px;
+}
+.tip .tip-navs .tip-nav .tip-title .tip-top h6 {
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+  text-transform: uppercase;
+}
+.tip .tip-navs .tip-nav .tip-title .tip-top h2 {
+  font-size: 20px;
+}
+.tip .tip-navs .tip-nav .tip-title .tip-top p {
+  font-size: 14px;
+  margin: 20px 0;
+}
+.tip .tip-navs .tip-nav .tip-title .tip-bootom {
+  margin-top: auto;
+  flex-shrink: 0;
+}
+.tip .tip-navs .tip-nav .tip-title .tip-bootom .tip-more {
+  display: flex;
+  opacity: 0.3;
+  margin-top: 30px;
+}
+.tip .tip-navs .tip-nav .tip-title .tip-bootom .tip-more:hover {
+  opacity: 0.6;
+}
+.tip .tip-navs .tip-nav .tip-title .tip-bootom .tip-more .icon-tip {
+  padding: 3px;
+}/*# sourceMappingURL=Tip.css.map */

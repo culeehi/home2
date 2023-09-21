@@ -1,5 +1,6 @@
 .destination {
   margin-top: 70px;
+  padding-bottom: 70px;
 }
 .destination .destination-title {
   text-align: center;
@@ -38,7 +39,7 @@
   cursor: pointer;
   border-radius: 5px;
 }
-.destination .popularPlaces .content .images .imade h3 {
+.destination .popularPlaces .content .images .imade span {
   font-weight: 700;
   font-size: 24px;
   color: white;
@@ -46,4 +47,103 @@
   bottom: 50px;
   cursor: pointer;
   right: -15px;
+}
+.destination .popular_country {
+  padding: 0 15px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.destination .popular_country .country {
+  flex-basis: 25%;
+  max-width: 40%;
+  margin-bottom: -20px;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+.destination .popular_country .country:hover {
+  transform: translateY(-7px);
+  transition: 0.3s;
+  box-shadow: -1px -1px 10px 5px rgb(152, 117, 117);
+}
+.destination .popular_country .country:hover .nav_img-top span {
+  transform: translateY(-7px);
+  transition: 0.3s;
+  font-size: 17px;
+}
+.destination .popular_country .country .nav_img-top img {
+  height: 250px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+.destination .popular_country .country .nav_img-top span {
+  bottom: 40px;
+  position: relative;
+  left: 0;
+  background: #ff4a52;
+  padding: 3px 10px 2px 10px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+}
+.destination .popular_country .country .nav_img-top .abc {
+  text-decoration: line-through;
+  color: #777;
+}
+.destination .popular_country .country .nav-title-bootom {
+  padding: 8px 17px;
+  margin-top: -35px;
+  border-bottom: 1px solid #d8d6d6;
+  border-right: 1px solid #d8d6d6;
+  border-left: 1px solid #d8d6d6;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.destination .popular_country .country .nav-title-bootom .title {
+  margin-bottom: 10px;
+}
+.destination .popular_country .country .nav-title-bootom .title h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.destination .popular_country .country .nav-title-bootom .title p {
+  font-size: 13px;
+  opacity: 0.8;
+}
+.destination .popular_country .country .nav-title-bootom .rating {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: auto;
+  flex-shrink: 0;
+}
+.destination .popular_country .country .nav-title-bootom .rating .rating-star {
+  display: flex;
+}
+.destination .popular_country .country .nav-title-bootom .rating .rating-star .stars {
+  margin-top: -2px;
+}
+.destination .popular_country .country .nav-title-bootom .rating .rating-star .stars .star {
+  color: #1ec6b6;
+  font-size: 13px;
+}
+.destination .popular_country .country .nav-title-bootom .rating .rating-star .stars .nostar {
+  font-size: 13px;
+}
+.destination .popular_country .country .nav-title-bootom .rating .rating-star p {
+  font-size: 12px;
+}
+.destination .popular_country .country .nav-title-bootom .rating .howlong {
+  display: flex;
+}
+.destination .popular_country .country .nav-title-bootom .rating .howlong .time {
+  margin-top: 1px;
+  font-size: 13px;
+}
+.destination .popular_country .country .nav-title-bootom .rating .howlong p {
+  font-size: 12px;
 }/*# sourceMappingURL=Destinations.css.map */

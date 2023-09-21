@@ -1,0 +1,15 @@
+.footer {
+   .footer-top {
+      width: 90%;
+      margin: 0 auto;
+      .footer-info {
+         display: flex;
+         justify-content: center;
+         .footer-nav {
+            flex-basis: 25%;
+            background-color: aqua;
+            margin: 0 15px;
+         }
+      }
+   }
+}

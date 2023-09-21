@@ -1,0 +1,38 @@
+.portifolio {
+   padding-bottom: 100px;
+   .portifolio-review {
+      .portifolio-title {
+         text-align: center;
+      }
+      .standard_wrapper {
+         display: flex;
+         justify-content: center;
+         width: 90%;
+         margin: 20px 0;
+         .standard_wrapper-items {
+            flex-basis: 25%;
+            margin: 0 20px;
+            max-width: 250px;
+            text-align: center;
+            img {
+               width: 70%;
+               object-fit: cover;
+            }
+            h3 {
+               white-space: nowrap;
+            }
+            p {
+               font-size: 13px;
+            }
+         }
+      }
+   }
+   .lua {
+      img {
+         margin-top: 50px;
+         height: 50vh;
+         width: 100%;
+         object-fit: cover;
+      }
+   }
+}
