@@ -3,11 +3,18 @@
    .portifolio-review {
       .portifolio-title {
          text-align: center;
+         h1 {
+            font-size: 36px;
+         }
+         p {
+            font-size: 15px;
+            color: #8d9199;
+         }
       }
       .standard_wrapper {
          display: flex;
          justify-content: center;
-         width: 90%;
+
          margin: 20px 0;
          .standard_wrapper-items {
             flex-basis: 25%;
@@ -33,6 +40,27 @@
          height: 50vh;
          width: 100%;
          object-fit: cover;
+      }
+   }
+}
+
+@media screen and (max-width: 760px) {
+   .portifolio {
+      .portifolio-review {
+         .portifolio-title {
+            text-align: center;
+            h1 {
+               font-size: 24px;
+            }
+         }
+         .standard_wrapper {
+            display: block;
+            text-align: center;
+            .standard_wrapper-items {
+               margin: 20px auto;
+               max-width: 40%;
+            }
+         }
       }
    }
 }

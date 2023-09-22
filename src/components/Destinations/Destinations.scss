@@ -160,3 +160,29 @@
       }
    }
 }
+
+@media screen and (max-width: 760px) {
+   .destination-title {
+      h1 {
+         font-size: 24px !important;
+      }
+   }
+   .destination {
+      .popularPlaces {
+         .content {
+            .images {
+               display: block;
+               .imade {
+                  max-width: 100%;
+               }
+            }
+         }
+      }
+      .popular_country {
+         display: block;
+         .country {
+            max-width: 100%;
+         }
+      }
+   }
+}

@@ -1,5 +1,7 @@
 import { menuItems } from '../menuItems';
 import MenuItems from './MenuItems';
+import '../Navbar.css';
+
 const Shownav = () => {
    return (
       <nav>

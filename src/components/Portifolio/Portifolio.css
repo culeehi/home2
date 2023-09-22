@@ -4,10 +4,16 @@
 .portifolio .portifolio-review .portifolio-title {
   text-align: center;
 }
+.portifolio .portifolio-review .portifolio-title h1 {
+  font-size: 36px;
+}
+.portifolio .portifolio-review .portifolio-title p {
+  font-size: 15px;
+  color: #8d9199;
+}
 .portifolio .portifolio-review .standard_wrapper {
   display: flex;
   justify-content: center;
-  width: 90%;
   margin: 20px 0;
 }
 .portifolio .portifolio-review .standard_wrapper .standard_wrapper-items {
@@ -33,4 +39,21 @@
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media screen and (max-width: 760px) {
+  .portifolio .portifolio-review .portifolio-title {
+    text-align: center;
+  }
+  .portifolio .portifolio-review .portifolio-title h1 {
+    font-size: 24px;
+  }
+  .portifolio .portifolio-review .standard_wrapper {
+    display: block;
+    text-align: center;
+  }
+  .portifolio .portifolio-review .standard_wrapper .standard_wrapper-items {
+    margin: 20px auto;
+    max-width: 40%;
+  }
 }/*# sourceMappingURL=Portifolio.css.map */

@@ -10,6 +10,10 @@ import { BsChevronRight } from 'react-icons/bs';
 const Tip = () => {
    return (
       <div className="tip">
+         <div className="tip-title">
+            <h1>Articles & Tips</h1>
+            <p >Explore some of the best tips from around the world</p>
+         </div>
          <div className="tip-navs">
             <div className="tip-nav">
                <div className="tip-img">

@@ -14,7 +14,6 @@ function ScrollToTopButton() {
             setIsButtonVisible(false);
          }
       };
-
       window.addEventListener('scroll', handleScroll);
 
       return () => {

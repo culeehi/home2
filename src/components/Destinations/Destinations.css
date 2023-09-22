@@ -146,4 +146,22 @@
 }
 .destination .popular_country .country .nav-title-bootom .rating .howlong p {
   font-size: 12px;
+}
+
+@media screen and (max-width: 760px) {
+  .destination-title h1 {
+    font-size: 24px !important;
+  }
+  .destination .popularPlaces .content .images {
+    display: block;
+  }
+  .destination .popularPlaces .content .images .imade {
+    max-width: 100%;
+  }
+  .destination .popular_country {
+    display: block;
+  }
+  .destination .popular_country .country {
+    max-width: 100%;
+  }
 }/*# sourceMappingURL=Destinations.css.map */

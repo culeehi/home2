@@ -1,7 +1,18 @@
 .tip {
-   width: 90%;
    margin: 50px auto;
-   padding-bottom: 50px;
+   padding: 0 10px;
+   .tip-title {
+      text-align: center;
+      padding-bottom: 30px;
+
+      h1 {
+         font-size: 36px;
+      }
+      p {
+         font-size: 15px;
+         color: #8d9199;
+      }
+   }
    .tip-navs {
       display: flex;
       justify-content: center;
@@ -15,11 +26,12 @@
             transform: translateY(-7px);
             transition: 0.3s;
 
-            box-shadow: -1px -1px 10px 5px rgb(152, 117, 117);
+            // box-shadow: -1px -1px 10px 5px rgb(152, 117, 117);
+            box-shadow: 0 22px 40px rgba(0, 0, 0, 0.15);
          }
          .tip-img {
             img {
-               height: 200px;
+               height: 235px;
                width: 100%;
                object-fit: cover;
             }
@@ -69,6 +81,22 @@
                   }
                }
             }
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 820px) {
+   .tip {
+      .tip-title {
+         h1 {
+            font-size: 24px;
+         }
+      }
+      .tip-navs {
+         display: block;
+         .tip-nav {
+            margin: 20px;
          }
       }
    }

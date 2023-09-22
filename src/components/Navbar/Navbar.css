@@ -179,3 +179,9 @@
 .cap2 {
    padding-bottom: 20px;
 }
+
+@media screen and (min-width: 950) {
+   .show_nav {
+      display: none;
+   }
+}
