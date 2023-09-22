@@ -130,6 +130,7 @@
 
                .rating-star {
                   display: flex;
+                  flex-wrap: wrap;
                   .stars {
                      margin-top: -2px;
                      .star {
@@ -182,6 +183,7 @@
          display: block;
          .country {
             max-width: 100%;
+            margin: 20px 0;
          }
       }
    }

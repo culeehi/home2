@@ -1,6 +1,6 @@
 .home {
   position: relative;
-  height: 100vh;
+  height: 75vh;
   width: 100%;
   top: 0;
 }
@@ -28,11 +28,11 @@
   text-align: center;
 }
 .home .show-main .title-show-main .ppb_title {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 700;
 }
 .home .show-main .title-show-main .page_tagline {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
 }
 .home .show-main .input_nav-tour .nav-input {
@@ -101,6 +101,12 @@
 }
 
 @media screen and (max-width: 820px) {
+  .home .show-main {
+    top: 15%;
+  }
+  .home .show-main .title-show-main h2 {
+    font-size: 24px !important;
+  }
   .home .show-main .input_nav-tour .nav-input .tour_sreach_wrapper,
   .home .show-main .input_nav-tour .nav-input .tour_advance {
     display: block;

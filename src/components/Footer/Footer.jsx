@@ -40,11 +40,11 @@ const Footer = () => {
                         </div>
                      </div>
                      <div className="icons-contact">
-                        <i class="fa-brands fa-square-facebook"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-youtube"></i>
-                        <i class="fa-brands fa-pinterest"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <i className="fa-brands fa-square-facebook"></i>
+                        <i className="fa-brands fa-twitter"></i>
+                        <i className="fa-brands fa-youtube"></i>
+                        <i className="fa-brands fa-pinterest"></i>
+                        <i className="fa-brands fa-instagram"></i>
                      </div>
                   </div>
                </div>

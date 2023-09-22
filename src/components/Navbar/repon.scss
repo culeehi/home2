@@ -99,6 +99,7 @@
 .dropdown > .menu-items {
    width: 101%;
 }
+
 .dropdown.show {
    display: block;
 }
@@ -138,7 +139,6 @@
    right: 4px;
    border-radius: 50px;
    background: #ff4a52;
-
    z-index: 2;
    width: 7px;
    height: 8px;
@@ -147,15 +147,12 @@
 
 .boottom-devide {
    width: 85%;
-
    margin: 0 auto;
-
    border-bottom: 1px solid #dce0e0;
 }
 
 .menu-items > button > .cap1 {
    border-bottom: 1px solid #dce0e0;
-
    display: flex;
    justify-content: space-between;
 }
@@ -189,6 +186,27 @@
             .show_nav {
                display: none;
             }
+         }
+      }
+   }
+}
+
+.an-nav {
+   opacity: 0;
+   visibility: hidden;
+   transition: 0.5s;
+}
+
+.class1 {
+   .hien-nav {
+      .navbar-content {
+         .home-narbar {
+            background-color: white;
+            color: black;
+
+            transition: 0.6s;
+            border-bottom: 1px solid rgb(236, 231, 231);
+            box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
          }
       }
    }
