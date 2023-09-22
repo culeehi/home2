@@ -64,7 +64,7 @@
 }
 .destination .popular_country .country:hover {
   transform: translateY(-7px);
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
   box-shadow: -1px -1px 10px 5px rgb(152, 117, 117);
 }
 .destination .popular_country .country:hover .nav_img-top span {

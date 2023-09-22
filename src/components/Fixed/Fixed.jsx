@@ -5,7 +5,7 @@ import { CiSettings } from 'react-icons/ci';
 import { AiOutlineHeart } from 'react-icons/ai';
 import { BsBook } from 'react-icons/bs';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
-import { BiSolidChevronUp } from 'react-icons/bi';
+
 
 const Fixed = () => {
    return (
@@ -23,9 +23,6 @@ const Fixed = () => {
             <div>
                <AiOutlineShoppingCart className="fixed-icons-ic" />
             </div>
-         </div>
-         <div className="fixed-scoll">
-            <BiSolidChevronUp />
          </div>
       </div>
    );

@@ -46,6 +46,7 @@
   cursor: pointer;
 }
 .footer .footer-top .footer-info .footer-nav .recent {
+  margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }

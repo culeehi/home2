@@ -5,6 +5,8 @@ import Destinations from './components/Destinations/Destinations';
 import Portifolio from './components/Portifolio/Portifolio';
 import Tip from './components/Tip/Tip';
 import Footer from './components/Footer/Footer';
+import Fixed from './components/Fixed/Fixed';
+import ScrollToTopButton from './Scroll/Scroll';
 
 function App() {
    return (
@@ -15,6 +17,8 @@ function App() {
          <Portifolio />
          <Tip />
          <Footer />
+         <Fixed />
+         <ScrollToTopButton />
       </div>
    );
 }
